@@ -6,6 +6,16 @@ rules:
 - "All new business logic should have corresponding unit tests."
 - "Refactor large functions to be more modular."
 - "Add docstrings to all functions and file headers."
+- "Mark PR as WIP by commenting `/wip`"
+- "Block/unblock PR merge by commenting `/hold` or `/hold cancel`"
+- "Verify/unverify PR by commenting `/verified` or `/verified cancel`"
+- "Cherry-pick a merged PR by commenting `/cherry-pick <target branch>`"
+- "Build and push container image by commenting `/build-and-push-container`"
+- "Add/remove a label by comment by using `/<label name>` or `/<label name> cancel`"
+- "Add reviewers from OWNER file"
+- "Set PR size label"
+- "Create a new issue for the PR"
+- "Run pre-commit if `.pre-commit-config.yaml` exists in the repo"
 
 # This is the branch that Sweep will develop from and make pull requests to. Most people use 'main' or 'master' but some users also use 'dev' or 'staging'.
 branch: 'main'
@@ -33,7 +43,6 @@ blocked_dirs: []
 # docs:
 #   - PyGitHub: ["https://pygithub.readthedocs.io/en/latest/", "We use pygithub to interact with the GitHub API"]
 docs: []
-
 # Sandbox executes commands in a sandboxed environment to validate code changes after every edit to guarantee pristine code. For more details, see the [Sandbox](./sandbox) page.
 sandbox:
   install:
