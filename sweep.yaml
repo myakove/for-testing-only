@@ -9,7 +9,7 @@ rules:
 - "Mark PR as WIP by commenting `/wip`"
 - "Block/unblock PR merge by commenting `/hold` or `/hold cancel`"
 - "Verify/unverify PR by commenting `/verified` or `/verified cancel`"
-- "Cherry-pick a merged PR by commenting `/cherry-pick <target branch>`"
+- ""Cherry-pick a merged PR by commenting `/cherry-pick <target branch>`""
 - "Build and push container image by commenting `/build-and-push-container`"
 - "Add/remove a label by comment by using `/<label name>` or `/<label name> cancel`"
 - "Add reviewers from OWNER file"
