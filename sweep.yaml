@@ -1,3 +1,7 @@
+# Sweep Configuration File
+# This file contains the rules and settings for the Sweep AI service.
+# It defines the behaviors for automatic pull requests, code checks, and more.
+
 # Sweep AI turns bugs & feature requests into code changes (https://sweep.dev)
 # For details on our config file, check out our docs at https://docs.sweep.dev/usage/config
 
@@ -40,6 +44,8 @@ blocked_dirs: []
 #
 # Example:
 #
+# Documentation References
+# Add references to external documentation to inform Sweep about your codebase's dependencies.
 # docs:
 #   - PyGitHub: ["https://pygithub.readthedocs.io/en/latest/", "We use pygithub to interact with the GitHub API"]
 docs: []
